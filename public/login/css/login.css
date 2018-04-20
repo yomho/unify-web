@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: Microsoft YaHei,Verdana,Arial,SimSun;
 }
 body{
@@ -67,7 +65,7 @@ body{
 	font-family: 600;
 }
 .login-content .login-content-left .layui-tab-item .layui-form-item {
-	width: 60%;
+	width: 70%;
 }
 .login-content .login-content-left .layui-tab-item .layui-form-item:first-child{
 	margin-top: 10px;
@@ -75,18 +73,7 @@ body{
 .login-content .login-content-left .layui-tab-item .layui-form-item button{
 	width: 100%;
 }
-/* .login-content .login-content-left .button-group a {
-	display:inline-block;
-	padding: 10px 15px;
-	width: 220px;
-	text-align: center;
-	font-size: 16px;
-	color: #fff;
-	background: #b90628;
-	border-radius: 3px;
-	margin: 20px 0 0 50px;
-	text-decoration: none;
-} */
+
 .login-content .login-content-left a.register{
 	margin-left: 35px;
 }

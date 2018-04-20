@@ -1,0 +1,14 @@
+.ly-icon-input{
+    position: relative;
+}
+.ly-icon-input>i,
+.ly-icon-input>span
+{
+    left: 10px; 
+    top: 12px; 
+    position: absolute;
+}
+
+.ly-icon-input>input{
+    padding-left: 35px;
+}

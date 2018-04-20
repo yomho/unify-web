@@ -20,6 +20,12 @@ fis.match('*', {
 fis.match('*.{css,png}', {
     useHash: true
 });
+fis.match('*.min.{css,js}', {
+    useHash: false
+});
+fis.match('*.{eot,svg,ttf,woff,woff2,otf}', {
+    useHash: false
+});
 fis.match('globals/**', {
     useHash: false
 });
