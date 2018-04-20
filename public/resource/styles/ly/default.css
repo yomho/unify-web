@@ -12,3 +12,6 @@
 .ly-icon-input>input{
     padding-left: 35px;
 }
+.ly-fn-fill-with-parent{
+    width: 100%;
+}

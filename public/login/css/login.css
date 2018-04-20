@@ -70,9 +70,6 @@ body{
 .login-content .login-content-left .layui-tab-item .layui-form-item:first-child{
 	margin-top: 10px;
 }
-.login-content .login-content-left .layui-tab-item .layui-form-item button{
-	width: 100%;
-}
 
 .login-content .login-content-left a.register{
 	margin-left: 35px;
@@ -133,4 +130,14 @@ a {
 	border-width: 0;
 	margin-right: 50px;
 	opacity: 0.6;
+}
+
+.get-short-message input{
+	width: 50%;
+}
+.get-short-message button{
+	top: 0px; 
+	width: 120px; 
+	right: 0px; 
+	position: absolute;
 }
