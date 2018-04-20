@@ -2,7 +2,7 @@ define(function (require) {
     return {
         init: function (args) {
             var _this = args;
-            $('#login-tabs').tabs().css('visibility','visible');
+            //$('#login-tabs').tabs().css('visibility','visible');
             _this.CanvasBg.init();
         },
         CanvasBg: {

@@ -10,30 +10,37 @@
     </div>
     <div class="login-content">
         <div class="login-content-left">
-                <!-- <h3><span>密码登录</span><span>快捷登录</span></h3>
-                <form>
-                    <input class="text" required="" type="text" placeholder="支持联友账号/邮箱/手机号登录" value="">
-                    <input type="password" placeholder="密码">
-                    <a href="javascript:void(0)">登录</a> <a href="javascript:void(0)" class="register">注册</a>
-                </form> -->
-                <div id="login-tabs" class="login-tab" style="visibility:hidden;">
-                    <ul>
-                      <li><a href="#tab-password">密码登录</a></li>
-                      <li><a href="#tab-fastlogin">快捷登录</a></li>
-                    </ul>
-                    <div id="tab-password">
-                        <input class="text" required="" type="text" placeholder="联友账号/邮箱/手机号登录" value="">
-                            <input type="password" placeholder="密码">
-                            <div class="button-group"><a href="javascript:void(0)" class="login">登录</a> 
-                               </div>
-                    </div>
-                    <div id="tab-fastlogin">
-                        <input class="text" required="" type="text" placeholder="手机号" value="">
-                        <input type="password" placeholder="动态码" style="width: 120px;">
-                        <div class="button-group"><a href="javascript:void(0)" class="login">登录</a> 
+                  <div class="layui-tab layui-tab-brief">
+                      <ul class="layui-tab-title">
+                        <li class="layui-this">密码登录</li>
+                        <li>快捷登录</li>
+                      </ul>
+                      <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-form-item">
+                                <input type="text" name="loginid" required lay-verify="required" placeholder="联友账号/邮箱/手机号" autocomplete="off" class="layui-input">
                             </div>
+                            <div class="layui-form-item">
+                                <input type="password" name="loginpsw" required lay-verify="required" placeholder="密码" autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-item">
+                                <button class="layui-btn layui-btn-primary ly-ui-bg-red">登录</button>
+                            </div>
+                        </div>
+                        <div class="layui-tab-item">
+                            <div class="layui-form-item">
+                                <input type="text" name="logintel" required lay-verify="required" placeholder="手机号" autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-item">
+                                <input type="password" name="logincode" required lay-verify="required" placeholder="动态码" autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-item">
+                                <button class="layui-btn layui-btn-primary ly-ui-bg-red">登录</button>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>               
+                    
         </div>
         <div class="login-content-right">
                 <p>用一元化账号流畅地访问您不同的业务系统</p>

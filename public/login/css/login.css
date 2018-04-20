@@ -66,24 +66,16 @@ body{
 	padding: 0 10%;
 	font-family: 600;
 }
-.login-content .login-content-left input {
-	width: 50%;
-	padding: 10px;
-	font-size: 16px;
-	border-radius: 3px;
-    margin: 20px 0 0 50px;
-    border: 1px solid #b90628; 
-    border-image: none; 
-    padding-left: 37.5px !important; 
-    font-size: 13px; 
-    opacity: 0.7; 
-    background-color: rgb(255, 255, 255);
+.login-content .login-content-left .layui-tab-item .layui-form-item {
+	width: 60%;
 }
-.login-content .login-content-left input[type='text'] {
-	margin-top: 30px;
+.login-content .login-content-left .layui-tab-item .layui-form-item:first-child{
+	margin-top: 10px;
 }
-
-.login-content .login-content-left .button-group a {
+.login-content .login-content-left .layui-tab-item .layui-form-item button{
+	width: 100%;
+}
+/* .login-content .login-content-left .button-group a {
 	display:inline-block;
 	padding: 10px 15px;
 	width: 220px;
@@ -94,7 +86,7 @@ body{
 	border-radius: 3px;
 	margin: 20px 0 0 50px;
 	text-decoration: none;
-}
+} */
 .login-content .login-content-left a.register{
 	margin-left: 35px;
 }
@@ -149,69 +141,9 @@ a {
 	cursor: not-allowed;
 }
 
-.login-tab.ui-widget-content{
+.login-content-left .layui-tab{
 	border: none;
 	border-width: 0;
 	margin-right: 50px;
 	opacity: 0.6;
-}
-
-.login-tab ul.ui-tabs-nav >li>a.ui-tabs-anchor{
-	color:#c90329;
-	font-size:16px;
-	/* padding-top:17.25px;
-	padding-bottom:17.25px; */
-	width:103.4px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	/*border-radius: 3px 3px 0 0;*/
-
-}
-.login-tab ul.ui-tabs-nav >li{
-	border: none;
-	margin-right: 0;
-}
-.login-tab ul.ui-tabs-nav >li:not(.ui-tabs-active)>a.ui-tabs-anchor{
-	color:#000;
-	font-weight: 100;
-}
-.login-tab .ui-tabs-panel{
-   top:54px;
-}
-.login-tab,.login-tab>ul.ui-tabs-nav{
-	border-top-left-radius:0;
-	border-top-right-radius:0;
-}
-.login-tab>ul.ui-tabs-nav{
-   border:none;
-   border-image:none;
-   border-radius: 0;
-   background-color:transparent;
-   margin:0;
-   padding:0;
-   border-bottom:1px solid #b90628;
-   
-   /*background-color:white;*/
-   /*border-radius: 3px 3px 0 0;*/
-}
-.login-tab>ul.ui-tabs-nav>li:not(.ui-tabs-active){
-   background-color:transparent;
-   padding-top: 0;
-   /* height: 57px; */
-}
-/* .login-tab>ul.ui-tabs-nav>li:not(.ui-tabs-active):not(:last-child){
-   border-right:1px solid #e1e3e6;
-} */
-.login-tab>ul.ui-tabs-nav>li.ui-tabs-active{
-
-	/*border-left:1px solid #c90329;*/
-	/*border-right:1px solid #c90329;*/
-   background-color: white;
-   padding-top: 0;
-   padding-bottom: 0;
-   /* height: 57px; */
-   /*border-radius: 3px 3px 0 0;*/
-   border-bottom: 2px solid #c90329;
-
 }
