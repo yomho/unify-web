@@ -1,0 +1,18 @@
+{
+    "public": {
+        "locals": {
+            "system": {
+                "version":"0.0.1",
+                "icp": "ICP",
+                "name": "联友一元化认证中心",
+                "copyright":"Copyright  ©  2012-2018 LANYOU 深圳联友 版权所有 粤ICP备11069161-21"
+            }
+        }
+    },
+    "private": {
+        "secretKeys": {
+            "cookieSecret": "123456",
+            "sessionSecret":"654321"
+        }
+    }
+}

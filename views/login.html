@@ -1,0 +1,16 @@
+{% extends 'layouts/requirejs.html' %}
+
+{% block title %} {{title}} {%endblock%}
+
+{% block head %}
+<!--<link rel="stylesheet" type="text/css" href="../public/login/css/login.css?__inline"/>-->
+ {% include "../public/login/view/head.html" ignore missing %}
+{% endblock %}
+
+{% block content %}
+ <!--<link rel="import" href="../public/login/view/content.html?__inline"/>-->
+  {% include "../public/login/view/content.html" ignore missing %}
+{% endblock %}
+{% block footer %}
+    {% include "sections/footer.html" ignore missing %}
+{% endblock %}

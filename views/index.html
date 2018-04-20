@@ -1,0 +1,5 @@
+{% extends 'layouts/__share.html' %}
+{% block content %}
+  <h1>{{title}}</h1>
+  Welcome to {% autoescape true %}{{ title }}{% endautoescape %}
+{% endblock %}

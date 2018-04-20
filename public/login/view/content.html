@@ -1,0 +1,51 @@
+<!-- <div class="video-background">
+        <video loop muted="muted" oncanplaythrough="play()" class="fillWidth" poster="../resource/imgs/login-bg.jpg?v={{config.system.version}}">
+            <source src="../resource/video/video.mp4?v={{config.system.version}}" type="video/mp4"/>
+        </video>
+</div> -->
+<canvas class="canvas-background"></canvas>
+<div class="login-layout">
+    <div class="login-header">
+        <h1>联友一元化认证中心</h1>
+    </div>
+    <div class="login-content">
+        <div class="login-content-left">
+                <!-- <h3><span>密码登录</span><span>快捷登录</span></h3>
+                <form>
+                    <input class="text" required="" type="text" placeholder="支持联友账号/邮箱/手机号登录" value="">
+                    <input type="password" placeholder="密码">
+                    <a href="javascript:void(0)">登录</a> <a href="javascript:void(0)" class="register">注册</a>
+                </form> -->
+                <div id="login-tabs" class="login-tab" style="visibility:hidden;">
+                    <ul>
+                      <li><a href="#tab-password">密码登录</a></li>
+                      <li><a href="#tab-fastlogin">快捷登录</a></li>
+                    </ul>
+                    <div id="tab-password">
+                        <input class="text" required="" type="text" placeholder="联友账号/邮箱/手机号登录" value="">
+                            <input type="password" placeholder="密码">
+                            <div class="button-group"><a href="javascript:void(0)" class="login">登录</a> 
+                               </div>
+                    </div>
+                    <div id="tab-fastlogin">
+                        <input class="text" required="" type="text" placeholder="手机号" value="">
+                        <input type="password" placeholder="动态码" style="width: 120px;">
+                        <div class="button-group"><a href="javascript:void(0)" class="login">登录</a> 
+                            </div>
+                    </div>
+                  </div>               
+        </div>
+        <div class="login-content-right">
+                <p>用一元化账号流畅地访问您不同的业务系统</p>
+                <p><a href="javascript:void(0)">业务系统</a>将获得以下权限</p>
+                <p><input disabled="disabled" type="checkbox" checked="checked">全选</p>
+                <ul>
+                    <li><input disabled="disabled" type="checkbox" checked="checked">获得您的联友账号ID</li>
+                    <li><input disabled="disabled" type="checkbox" checked="checked">读取您的头像、性别、手机号码、邮箱等基本信息</li>
+                    <li><input type="checkbox" class="isRedirect">本次登录后不跳转到业务系统</li>
+                </ul>
+                <p class="agreement">注册账号后表明你已同意<a href="#">联友一元化账号认证协议</a></p>
+        </div>
+        
+    </div>
+</div>
