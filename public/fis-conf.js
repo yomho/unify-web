@@ -26,6 +26,15 @@ fis.match('*.min.{css,js}', {
 fis.match('*.{eot,svg,ttf,woff,woff2,otf}', {
     useHash: false
 });
+fis.match('*.min.{css,js}', {
+    useHash: false
+});
+fis.match('resource/styles/**', {
+    useHash: false
+});
+fis.match('resource/styles/ly/**', {
+    useHash: true
+});
 fis.match('globals/**', {
     useHash: false
 });
