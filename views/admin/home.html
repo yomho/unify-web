@@ -3,10 +3,9 @@
 {% block title %} {{title}} {%endblock%}
 
 {% block head %}
-<link href="css/home.css" rel="stylesheet"/>
-<link rel="stylesheet" type="text/css" href="../public/admin/home/css/home.css"/>
+    {% include "../../public/admin/home/view/head.html" ignore missing %}
 {% endblock %}
 
 {% block content %}
-<p>This is just an home page.</p>
+    {% include "../../public/admin/home/view/content.html" ignore missing %}
 {% endblock %}

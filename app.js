@@ -8,8 +8,8 @@ var swig = require('swig');
 var initializer = require('./initializer.js');
 initializer.initSwig(swig, config);
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+// var indexRouter = require('./routes/index');
+// var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -26,8 +26,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+initializer.initRoute(app);
+// app.use('/', indexRouter);
+// app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

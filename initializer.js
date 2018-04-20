@@ -1,4 +1,20 @@
 var initializer = {
+    initRoute:function(app){
+        //var indexRouter = require('./routes/index');
+        //var usersRouter = require('./routes/users');
+        //var adminRouter = require('./routes/admin');
+        // app.use(function(req, res, next) {
+        //     if(req.path==='/'){
+        //         res.locals.relativePrefix='..';
+        //     }else{
+        //         res.locals.relativePrefix = req.path.replace(/[^\/]*/gi, '').replace(/^\//gi, '').replace(/\//gi, '/..');
+        //     }
+        //     next();
+        // });
+        app.use('/', require('./routes/index'));
+        app.use('/admin', require('./routes/admin'));
+        //app.use('/users', usersRouter);
+    },
     initSwig: function (swig, config) {
         swig.setDefaults({
             allowErrors: false,//默认值为 false。将所有模板解析和编译错误直接输出到模板。如果为 true，则将引发错误，抛出到 Node.js 进程中，可能会使您的应用程序崩溃。
