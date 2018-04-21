@@ -1,9 +1,59 @@
 .home-layout{
-    min-width: 1024px;
     height: 100%;
+    position: relative;
+    min-width: 960px;
 }
 .home-layout .layui-body{
     left:0;
+    top: 60px; 
+    bottom: 0px;
+}
+.home-layout .layui-body .tab-wrapper,
+.home-layout .layui-body .tab-wrapper .layui-tab
+{
+    height: 100%;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab{
+    margin: 0;
+    border: none;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-title{
+    bottom: 0;
+    position:absolute;
+}
+
+.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content{
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0px; 
+    right: 0px;
+    padding: 0;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content>.layui-tab-item{
+    height: 100%;
+    width: 100%;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content>.layui-tab-item>iframe{
+    height: 100%;
+    width: 100%;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title .layui-this{
+    background-color: #a8daf6;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title li .layui-tab-close{
+    color: #7f7f7f;
+}
+.home-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title li .layui-tab-close:hover{
+    color: white;
+}
+.home-layout .layui-body .footer-bg{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background-color: #f2f2f2;
+    left: 0;
+    right: 0;
 }
 .home-layout .layui-logo,
 .home-layout .layui-logo>a,
