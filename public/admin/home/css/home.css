@@ -6,9 +6,12 @@
     left:0;
 }
 .home-layout .layui-logo,
-.home-layout .layui-logo a
+.home-layout .layui-logo>a,
+.home-layout .layui-logo>i
 {
     color:#7f7f7f;
+    height: 60px;
+    line-height: 60px;
 }
 .home-layout .layui-header{
     background-color:#a8daf6;
