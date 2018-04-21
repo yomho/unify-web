@@ -1,8 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
+.home-layout{
+    min-width: 1024px;
+    height: 100%;
 }
-body{
-    background-color: green;
-    color:white;
+.home-layout .layui-body{
+    left:0;
+}
+.home-layout .layui-logo,
+.home-layout .layui-logo a
+{
+    color: white;
+}
+.home-layout .layui-header{
+    background-color:#52b7ed;
+}
+
+.home-layout .layui-nav .layui-this:after,
+.home-layout .layui-nav-bar,
+.home-layout .layui-nav-tree .layui-nav-itemed:after{
+    background-color:#b90628;
 }
