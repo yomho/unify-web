@@ -24,7 +24,7 @@
 
 .home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content{
     position: absolute;
-    top: 0;
+    top: 10px;
     bottom: 40px;
     left: 0px; 
     right: 0px;
@@ -64,7 +64,7 @@
     line-height: 60px;
 }
 .home-layout .layui-header{
-    background-color:#a8daf6;
+    background-color:#fff;/*a8daf6*/
 }
 
 .home-layout .home-header .layui-nav .layui-this:after,

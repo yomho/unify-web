@@ -1,0 +1,20 @@
+<div class="users-layout ly-grid-container">
+    <div class="ly-grid-searcher layui-form">
+        <div class="layui-form-item layui-input-inline">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-block">
+                <input type="text" name="username" required lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item layui-input-inline">
+            <div class="layui-input-block ly-button-block">
+                <button class="layui-btn" lay-submit lay-filter="data-search">查询</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+                
+    </div>
+    <div class="ly-grid-data">
+        <table class="users-list" lay-filter="users-list"></table>
+    </div>
+</div>

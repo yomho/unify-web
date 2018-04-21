@@ -13,6 +13,7 @@ var initializer = {
         // });
         app.use('/', require('./routes/index'));
         app.use('/admin', require('./routes/admin'));
+        app.use('/admin/users', require('./routes/users'));
         //app.use('/users', usersRouter);
     },
     initSwig: function (swig, config) {

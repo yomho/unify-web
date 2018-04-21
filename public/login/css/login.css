@@ -2,7 +2,8 @@
     font-family: Microsoft YaHei,Verdana,Arial,SimSun;
 }
 body{
-    overflow: hidden;
+	overflow: hidden;
+	background-color:white;
 }
 .video-background video{
     position: fixed;

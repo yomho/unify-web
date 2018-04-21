@@ -2,6 +2,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: #e8e8e8;
+}
 .ly-icon-input{
     position: relative;
 }
@@ -18,4 +21,34 @@ html,body{
 }
 .ly-fn-fill-with-parent{
     width: 100%;
+}
+
+.layui-table-view{
+    margin: 0;
+    padding: 0;
+}
+.ly-grid-container{
+    position: relative;
+    height: 100%;
+}
+.ly-grid-searcher{
+    height: 38px;
+    width: 100%;
+    background-color :white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ly-grid-searcher .layui-form-item{
+    margin-bottom: 0;
+}
+.ly-grid-data{
+    position: absolute;
+    top: 68px;
+    bottom: 0;
+    width: 100%;
+    background-color :white;
+}
+
+.ly-grid-searcher .layui-form-item .ly-button-block{
+    margin-left: 10px;
 }
