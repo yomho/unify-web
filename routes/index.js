@@ -7,5 +7,10 @@ router.get('/', function(req, res, next) {
     title: '登录'
   });
 });
-
+router.get('/login', function(req, res, next) {
+  res.redirect('/admin');
+});
+router.get('/logout', function(req, res, next) {
+  res.redirect('/');
+});
 module.exports = router;

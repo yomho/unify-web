@@ -8,14 +8,30 @@
 .home-layout .layui-logo,
 .home-layout .layui-logo a
 {
-    color:white;
+    color:#7f7f7f;
 }
 .home-layout .layui-header{
     background-color:#a8daf6;
 }
 
-.home-layout .layui-nav .layui-this:after,
-.home-layout .layui-nav-bar,
-.home-layout .layui-nav-tree .layui-nav-itemed:after{
+.home-layout .home-header .layui-nav .layui-this:after,
+.home-layout .home-header .layui-nav-bar,
+.home-layout .home-header .layui-nav-tree .layui-nav-itemed:after{
     background-color:#b90628;
+}
+.home-layout .home-header .layui-nav .layui-nav-item a
+{
+    color: #7f7f7f;
+}
+
+.home-layout .home-header .layui-nav .layui-nav-more
+{
+    border-top-color: #7f7f7f;
+    border-bottom-color:transparent;
+}
+
+.home-layout .home-header .layui-nav .layui-nav-mored
+{
+    border-top-color:transparent;
+    border-bottom-color: 7f7f7f;
 }
