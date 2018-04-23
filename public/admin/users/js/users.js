@@ -5,7 +5,7 @@ define(function (require) {
             //layer.msg('Hello World');
             table.render({
                 elem: '.users-list',
-                height:  'full-68',
+                height:  'full-58',
                 page: true, //开启分页
                 cols: [
                     [ //表头
