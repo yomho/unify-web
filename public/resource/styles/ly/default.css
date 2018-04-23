@@ -68,3 +68,66 @@ body{
 .ly-input-height-normal .layui-input-block{
     min-height: 28px;
 }
+
+/*个性化定制第三方ui-----------begin*/
+.ly-home-like-layout{
+    height: 100%;
+    position: relative;
+    min-width: 960px;
+}
+.ly-home-like-layout .layui-body{
+    left:0;
+    top: 60px; 
+    bottom: 0px;
+}
+.ly-home-like-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title .layui-this{
+    background-color: #a8daf6;
+}
+.ly-home-like-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title li .layui-tab-close{
+    color: #7f7f7f;
+}
+.ly-home-like-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title li .layui-tab-close:hover{
+    color: white;
+}
+.ly-home-like-layout .layui-body .footer-bg{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background-color: #f2f2f2;
+    left: 0;
+    right: 0;
+}
+.ly-home-like-layout .layui-logo,
+.ly-home-like-layout .layui-logo>a,
+.ly-home-like-layout .layui-logo>i
+{
+    color:#7f7f7f;
+    height: 60px;
+    line-height: 60px;
+}
+.ly-home-like-layout .layui-header{
+    background-color:#fff;/*a8daf6*/
+}
+
+.ly-home-like-layout .layui-header .layui-nav .layui-this:after,
+.ly-home-like-layout .layui-header .layui-nav-bar,
+.ly-home-like-layout .layui-header .layui-nav-tree .layui-nav-itemed:after{
+    background-color:#b90628;
+}
+.ly-home-like-layout .layui-header .layui-nav .layui-nav-item a
+{
+    color: #7f7f7f;
+}
+
+.ly-home-like-layout .layui-header .layui-nav .layui-nav-more
+{
+    border-top-color: #7f7f7f;
+    border-bottom-color:transparent;
+}
+
+.ly-home-like-layout .layui-header .layui-nav .layui-nav-mored
+{
+    border-top-color:transparent;
+    border-bottom-color: #7f7f7f;
+}
+/*个性化定制第三方ui-----------end*/

@@ -1,13 +1,3 @@
-.home-layout{
-    height: 100%;
-    position: relative;
-    min-width: 960px;
-}
-.home-layout .layui-body{
-    left:0;
-    top: 60px; 
-    bottom: 0px;
-}
 .home-layout .layui-body .tab-wrapper,
 .home-layout .layui-body .tab-wrapper .layui-tab
 {
@@ -30,61 +20,9 @@
     right: 0px;
     padding: 0;
 }
-.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content>.layui-tab-item{
+.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content>.layui-tab-item,
+.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content>.layui-tab-item>iframe
+{
     height: 100%;
     width: 100%;
-}
-.home-layout .layui-body .tab-wrapper .layui-tab .layui-tab-content>.layui-tab-item>iframe{
-    height: 100%;
-    width: 100%;
-}
-.home-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title .layui-this{
-    background-color: #a8daf6;
-}
-.home-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title li .layui-tab-close{
-    color: #7f7f7f;
-}
-.home-layout .layui-body .tab-wrapper .layui-tab-card>.layui-tab-title li .layui-tab-close:hover{
-    color: white;
-}
-.home-layout .layui-body .footer-bg{
-    position: fixed;
-    bottom: 0;
-    height: 40px;
-    background-color: #f2f2f2;
-    left: 0;
-    right: 0;
-}
-.home-layout .layui-logo,
-.home-layout .layui-logo>a,
-.home-layout .layui-logo>i
-{
-    color:#7f7f7f;
-    height: 60px;
-    line-height: 60px;
-}
-.home-layout .layui-header{
-    background-color:#fff;/*a8daf6*/
-}
-
-.home-layout .home-header .layui-nav .layui-this:after,
-.home-layout .home-header .layui-nav-bar,
-.home-layout .home-header .layui-nav-tree .layui-nav-itemed:after{
-    background-color:#b90628;
-}
-.home-layout .home-header .layui-nav .layui-nav-item a
-{
-    color: #7f7f7f;
-}
-
-.home-layout .home-header .layui-nav .layui-nav-more
-{
-    border-top-color: #7f7f7f;
-    border-bottom-color:transparent;
-}
-
-.home-layout .home-header .layui-nav .layui-nav-mored
-{
-    border-top-color:transparent;
-    border-bottom-color: #7f7f7f;
 }
