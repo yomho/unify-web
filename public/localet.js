@@ -9,7 +9,8 @@ requirejs.config({
     baseUrl: '/lib',
     urlArgs: 'v=' + window.appVersion,
     paths: {
-        'app': '../app'
+        'app': '../app',
+        'res': '../resource'
     },
     shim: {
         backbone: {

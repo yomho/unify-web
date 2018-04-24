@@ -5,7 +5,7 @@
 
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['jquery', 'lodash'], factory);
+        define(['jquery', 'lodash.min'], factory);
     }
     else {
         factory(jQuery, _);

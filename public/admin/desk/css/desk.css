@@ -1,0 +1,21 @@
+.desk-container{
+    margin:10px 15px 10px 15px;
+}
+.desk-container .grid-stack-item-content.hasborder {
+    border:1px dashed #ccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+     -moz-box-shadow: 0 0 3px #e8e8e8;
+    -webkit-box-shadow: 0 0 3px #e8e8e8;
+    box-shadow: 0 0 3px #ccc;
+}
+.desk-container .ui-resizable-handle.ui-resizable-se.ui-icon{
+    left:auto;
+    right:-5px
+}
+
+.desk-container .grid-stack-item .item-content iframe{
+    height: 100%;
+    width: 100%;
+}
