@@ -14,8 +14,13 @@
     left:auto;
     right:-5px
 }
-
+.desk-container .grid-stack-item .item-content{
+    overflow: auto;
+}
 .desk-container .grid-stack-item .item-content iframe{
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }

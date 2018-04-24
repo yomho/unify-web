@@ -105,7 +105,7 @@ define(function (require) {
                 // if (itemHolder.attr('widgettype') !== widgetType) {
                 //     itemHolder.empty();
                 // }
-                itemHolder.attr('widgettype', widgetType).html('<iframe frameborder="0" onerror="return false;" src="' + itemData.funcpath + '">' + itemData.funname + '</iframe>');
+                itemHolder.attr('widgettype', widgetType).html('<iframe scrolling="auto" frameborder="0" onerror="return false;" src="' + itemData.funcpath + '">' + itemData.funname + '</iframe>');
                 var dataWidgetItems = [];/* 数据项暂时只支持一项*/
                 dataWidgetItems.push(itemData);
                 itemHolder.data('data-widget-items', dataWidgetItems);

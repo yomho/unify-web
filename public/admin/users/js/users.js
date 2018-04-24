@@ -13,7 +13,7 @@ define(function (require) {
                         { field: 'username', title: '用户名', width: 80 },
                         { field: 'sex', title: '性别', width: 80, sort: true },
                         { field: 'city', title: '城市', width: 80 },
-                        { field: 'sign', title: '签名', width: 177 },
+                        { field: 'sign', title: '签名', width: 120 },
                         { field: 'experience', title: '积分', width: 80, sort: true },
                         { field: 'score', title: '评分', width: 80, sort: true },
                         { field: 'classify', title: '职业', width: 80 },
